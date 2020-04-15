@@ -1,0 +1,69 @@
+.galery {
+    width: 100%;
+    // background: #000;
+
+    &_title {
+        padding: 0 1rem;
+        @include h2Title();
+
+        // border: 3px dashed #000;
+
+        @media screen and (max-width:768px) {
+            font-size: 1.4rem;
+        }
+    }
+
+    &__container {
+        @include flexRowCenter();
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        &__card {
+           
+            margin: 0 .5rem 1rem .5rem;
+            @include flexRowCenter();
+            flex: 1;
+            
+
+            // background: #000;
+            &_sub-text {
+                @include galery-sub-text();
+               
+            }
+        }
+    }
+}
+
+
+.bg-img-1 {
+   
+    @include galeryBg-image ('main-body/galery/Object.png');
+   
+}
+
+.bg-img-2 {
+    @include galeryBg-image ('main-body/galery/2.png');
+}
+
+.bg-img-3 {
+    @include galeryBg-image ('main-body/galery/Extreme.png');
+}
+
+.bg-img-4 {
+    @include galeryBg-image ('main-body/galery/Games.png');
+}
+
+.bg-img-5 {
+    @include galeryBg-image ('main-body/galery/Culture.png');
+    flex: 2.05;
+}
+
+.bg-img-6 {
+    @include galeryBg-image ('main-body/galery/6.png');
+    flex: 2.05;
+}
+
+.bg-img-7 {
+    @include galeryBg-image ('main-body/galery/7.png');
+}

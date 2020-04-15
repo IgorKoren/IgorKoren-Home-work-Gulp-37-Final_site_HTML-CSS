@@ -1,0 +1,153 @@
+.btn-link {
+    // display: inline-block;
+
+    font-family: $titleFont;
+    // font-family:'Montserrat', sans-serif;
+    color: $titleFontColorHeader;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .8rem;
+
+    // line-height: calc( font-size +5px);
+
+    padding: .6rem 1.2rem;
+    margin: 6px;
+
+    // display: inline-block;
+    cursor: pointer;
+
+
+}
+
+.btn-link:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 2rem;
+    // border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.btn-active {
+    border: 1px solid #FFFFFF;
+    border-radius: 2rem;
+    // padding: .6rem 1rem;
+    // margin: 1rem;
+}
+
+.fullColorBtn {
+    font-family: $titleFont;
+    color: $titleFontColorHeader;
+    background-color: $bgColorFillBtn;
+    border-radius: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .8rem;
+    text-decoration: none;
+
+
+
+    // line-height: calc( font-size +5px);
+
+    padding: 1rem 1.5rem;
+    margin: 10px;
+
+    // display: inline-block;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: $bgColorFillBtnHover;
+    
+    }
+
+}
+
+
+
+.item-btn {
+
+    font-family: $titleFont;
+    color: $titleFontColorHeader;
+    background-color: $bgColorFillBtn;
+    border-radius: 2rem;
+    font-style: normal;
+    font-size: .7rem;
+    text-decoration: none;
+    line-height: 0.8rem;
+    letter-spacing: 2px;
+
+    color: $step-btn;
+
+    // line-height: calc( font-size +5px);
+
+    padding: .4rem .8rem;
+    margin: .8rem;
+
+    display: inline-block;
+    cursor: pointer;
+}
+
+.item-btn:hover {
+    background-color: $bgColorFillBtnHover;
+
+}
+
+.btn-red {
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid $bgColorFillBtn;
+    border-radius: 2rem;
+
+    font-family: $titleFont;
+    color: $bgColorFillBtn;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .8rem;
+    text-decoration: none;
+    line-height: 0.8rem;
+    // letter-spacing: 2px;
+
+    
+
+    padding: .6rem 1.2rem;
+    margin: 6px;
+
+    // display: inline-block;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+.btn-red:hover {
+    border: 1px solid $bgColorFillBtn;
+    color: $bgColorFillBtnHover;
+    // border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.formBtn {
+    font-family: $titleFont;
+    color: $titleFontColorHeader;
+    background-color: $bgColorFillBtn;
+    border-radius: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .9rem;
+    text-decoration: none;
+    padding: .6rem 1.2rem;
+    margin: 5px;
+
+    // display: inline-block;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $bgColorFillBtnHover;
+    
+    }
+
+}
+

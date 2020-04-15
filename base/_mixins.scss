@@ -1,0 +1,61 @@
+@mixin flexRowCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexColCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin h2Title {
+    font-family: $titleFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 2rem;
+
+    text-align: center;
+
+    color: $h2TitleColor;
+    margin-bottom: 2rem;
+}
+
+@mixin galeryBg-image ($imgURL) {
+    min-width: 205px;
+    height: 300px;
+    background-image: url($imgURL);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and (max-width:477px) {
+        height: 200px;
+        
+     }
+     @media screen and (max-width:420px) {
+        height: 120px;
+     }
+}
+
+@mixin galery-sub-text {
+    font-family: $titleFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #FFFFFF;
+     @media screen and (max-width:477px) {
+        font-size: 1.2rem;
+        
+     }
+     @media screen and (max-width:420px) {
+        font-size: 1rem;
+     }
+}
+
