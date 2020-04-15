@@ -12,7 +12,7 @@ const browser = require('browser-sync').create();
 function browserSync(done){
     browser.init({
         server:{
-            baseDir:"./bild"
+            baseDir:"./build"
         },
         port: 4000
     })
@@ -27,24 +27,22 @@ function browserSyncReload(done){
 const paths = {
     styles:{
         // src:'app/styles/**/*.scss',
-        src:'/*.scss',
-        dest:'bild/css'
+        src:'main.scss',
+        dest:'build/'
     },
     js:{
-        src:'/*.js',
+        src:'*.js',
 
         // src:'app/js/**/*.js',
-        dest:'bild/js'
+        dest:'build/js'
     },
     images:{
         src: '/**/*.*',
-
         // src: 'app/images/*.*',
-        dest:'build/images'
+        dest:'build/'
     },
     html:{
         src:'*.html',
-
         // src:'app/**/*.html',
         dest:'build/'
     }
@@ -61,7 +59,6 @@ function styles(){
         .pipe(gulp.dest(paths.styles.dest))
         .pipe(browser.stream())
 }
-
 
 function html(){
     return gulp.src(paths.html.src)
