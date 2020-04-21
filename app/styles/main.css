@@ -468,7 +468,7 @@ template {
   width: 100%;
   height: 100vh;
   padding: 5vh 15% 0 15%;
-  background-image: url(header/img/HeadaerFoto.png);
+  background-image: url(../header/img/HeadaerFoto.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -670,21 +670,21 @@ template {
 }
 
 .dreamshare__container__card .bgImage1 {
-  background-image: url("main-body/works/1.png");
+  background-image: url("../main-body/works/1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .dreamshare__container__card .bgImage2 {
-  background-image: url("main-body/works/2.png");
+  background-image: url("../main-body/works/2.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .dreamshare__container__card .bgImage3 {
-  background-image: url("main-body/works/3.png");
+  background-image: url("../main-body/works/3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -990,7 +990,7 @@ template {
 .bg-img-1 {
   min-width: 205px;
   height: 300px;
-  background-image: url("main-body/galery/Object.png");
+  background-image: url("../main-body/galery/Object.png");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1012,7 +1012,7 @@ template {
 .bg-img-2 {
   min-width: 205px;
   height: 300px;
-  background-image: url("main-body/galery/2.png");
+  background-image: url("../main-body/galery/2.png");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1034,7 +1034,7 @@ template {
 .bg-img-3 {
   min-width: 205px;
   height: 300px;
-  background-image: url("main-body/galery/Extreme.png");
+  background-image: url("../main-body/galery/Extreme.png");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1056,7 +1056,7 @@ template {
 .bg-img-4 {
   min-width: 205px;
   height: 300px;
-  background-image: url("main-body/galery/Games.png");
+  background-image: url("../main-body/galery/Games.png");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1078,7 +1078,7 @@ template {
 .bg-img-5 {
   min-width: 205px;
   height: 300px;
-  background-image: url("main-body/galery/Culture.png");
+  background-image: url("../main-body/galery/Culture.png");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1103,7 +1103,7 @@ template {
 .bg-img-6 {
   min-width: 205px;
   height: 300px;
-  background-image: url("main-body/galery/6.png");
+  background-image: url("../main-body/galery/6.png");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1128,7 +1128,7 @@ template {
 .bg-img-7 {
   min-width: 205px;
   height: 300px;
-  background-image: url("main-body/galery/7.png");
+  background-image: url("../main-body/galery/7.png");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;

@@ -38,32 +38,32 @@
 
 .bg-img-1 {
    
-    @include galeryBg-image ('main-body/galery/Object.png');
+    @include galeryBg-image ('../main-body/galery/Object.png');
    
 }
 
 .bg-img-2 {
-    @include galeryBg-image ('main-body/galery/2.png');
+    @include galeryBg-image ('../main-body/galery/2.png');
 }
 
 .bg-img-3 {
-    @include galeryBg-image ('main-body/galery/Extreme.png');
+    @include galeryBg-image ('../main-body/galery/Extreme.png');
 }
 
 .bg-img-4 {
-    @include galeryBg-image ('main-body/galery/Games.png');
+    @include galeryBg-image ('../main-body/galery/Games.png');
 }
 
 .bg-img-5 {
-    @include galeryBg-image ('main-body/galery/Culture.png');
+    @include galeryBg-image ('../main-body/galery/Culture.png');
     flex: 2.05;
 }
 
 .bg-img-6 {
-    @include galeryBg-image ('main-body/galery/6.png');
+    @include galeryBg-image ('../main-body/galery/6.png');
     flex: 2.05;
 }
 
 .bg-img-7 {
-    @include galeryBg-image ('main-body/galery/7.png');
+    @include galeryBg-image ('../main-body/galery/7.png');
 }
